@@ -1,0 +1,40 @@
+/* product.css */
+
+/* Style for each product container */
+.productInfo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 290px;
+    margin: 10px; /* Adjust the margin as needed to control spacing between product containers */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block; /* Display product containers inline */
+    vertical-align: top; /* Align product containers to the top */
+  }
+  
+  /* Style for the product image */
+  .productInfo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the product description */
+  .productInfo .description {
+    margin-top: 10px;
+  }
+  
+  /* Style for the "Add to Cart" button */
+  .productInfo .addToCart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Style for the "Add to Cart" button on hover */
+  .productInfo .addToCart:hover {
+    background-color: #0056b3;
+  }
+  
